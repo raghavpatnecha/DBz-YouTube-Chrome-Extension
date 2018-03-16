@@ -1,0 +1,25 @@
+{
+  "name": "Youtube Dbz theme",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Concept redesign of youtube to get a Dbz feel ",
+  "icons": {
+    "128": "boo.png"
+  },
+  
+  "homepage_url": "https://raghavpatnecha.github.io",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Goku Youtube"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "activeTab"
+  ]
+}
